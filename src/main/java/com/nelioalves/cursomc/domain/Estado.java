@@ -56,10 +56,6 @@ public class Estado implements Serializable {
 		this.cidades = cidades;
 	}
 
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
-
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
